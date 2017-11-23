@@ -1,362 +1,326 @@
 body {
 
-	font: 15px/1.5 Arial, Helvetica, sans-serif;
-	background-attachment: relative;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-attachment: relative;
+    overflow-x: hidden;
 }
-
-
-
 
 /* NAVBAR */
 
-
 .navbar {
-	background-color: black !important;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 9;
+    background-color: black !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 }
-
 
 .navbar a {
 
-	color: white !important;
+    color: white !important;
 
 }
 
 .navbar ul {
 
-	margin-left: 180px;
+    margin-left: 180px;
 }
 
 .navbar li {
 
-	padding-right: 15px;
-	padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-
-
-
-
-
-
-
 
 /* SECTION JUMBOTRON */
 
 img {
 
-	width: 130px;
-	margin-left: 0px;
-	margin-top: 40px;
+    width: 130px;
+    margin-left: 0px;
+    margin-top: 40px;
 }
-
-
 
 section .jumbotron {
 
-	background: url("img/car.jpg") no-repeat 0;
-	min-height: 1000px;
-	background-size: cover;
-	color: #ffffff;
-	text-align: center;
-	margin-top: -20px;
+    background: url("img/car.jpg") no-repeat 0;
+    min-height: 1000px;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -20px;
 
 }
 
+section h1 {
 
-
-section h1  {
-
-	margin-top: 80px;
+    margin-top: 80px;
 }
 
 section i {
 
-	margin-top: 480px;
-	color: #fff;
+    margin-top: 480px;
+    color: #fff;
 }
 
 section i:hover {
 
-	color: red !important;
+    color: red !important;
 }
-
-
-
-
-
-
-
-
-
 
 /*ENDRIT JUMBOTRON */
 
+#endrit .jumbotron {
 
-
-#endrit .jumbotron{
-
-	background: url("img/blackeye.jpg") no-repeat 0;
-	min-height: 600px;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	margin-top: -20px;
+    background: url("img/blackeye.jpg") no-repeat 0;
+    min-height: 600px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
 
 }
 
 #endrit .jumbotron {
 
-	background-color: #222;
-	color: white;
-	text-align: center;
-	margin-top: -30px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
 }
 
- #endrit hr {
+#endrit hr {
 
-	width: 50px;
-	border-style: solid;
-	border-width: 2px;
-	
-}
-
-
-#endrit .jumbotron h5  {
-	text-align: center;
-	margin-top: 20px;
-	line-height: +1.5
-}
-
-
-#endrit .col-md-3{
-
-	margin-top: 60px;
+    width: 50px;
+    border-style: solid;
+    border-width: 2px;
 
 }
 
+#endrit .jumbotron h5 {
+    text-align: center;
+    margin-top: 20px;
+    line-height: +1.5
+}
 
+#endrit .col-md-3 {
 
+    margin-top: 60px;
 
-
-
+}
 
 /* DIV CONTAINER-FLUID */
 
 .container-fluid {
 
-	text-align: center;
-	color: black;
+    text-align: center;
+    color: black;
 }
 
- hr {
+hr {
 
-	width: 50px;
-	border-style: solid;
-	border-width: 2px;
-	color: black;
-	
+    width: 50px;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+
 }
+
 .container-fluid p {
 
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .container-fluid img {
 
-	z-index: 1;
-	width: 100%;
-	margin: 0px;
+    z-index: 1;
+    width: 100%;
+    margin: 0px;
 }
 
 .col-md-4 .car2 {
 
-	height: 302px;
+    height: 302px;
     width: 479px;
     margin-left: -30px;
 }
 
 span .container img:hover {
 
-	opacity: 0.6;
-	filter: alpha(opacity=60;);
-	
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+
 }
-
-
-
-
-
 
 /*CLASS CONTAINER PHOTO */
 
 span .container {
 
-	text-align: center;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
 
 /* SECTION #CONTAINER */
 
 section {
 
-	margin-top: 45px;
+    margin-top: 45px;
 }
 
 section #container-fluid {
 
-	background: url("img/gray.jpg") no-repeat 0;
-	min-height: 900px;
-	background-size: cover;
-	z-index: -1;
-	padding-top: 200px;
+    background: url("img/gray.jpg") no-repeat 0;
+    min-height: 900px;
+    background-size: cover;
+    z-index: -1;
+    padding-top: 200px;
 }
 
- .innerdiv {
+.innerdiv {
 
-	border: 2px solid white;
-	background-color: #ffffff;
-	text-align: center;
-	margin-left: 300px;
+    border: 2px solid white;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 300px;
     margin-right: 300px;
     padding-top: 0px;
     padding-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
-    
+
 }
 
 section h1 {
 
-	margin-top: 90px;
+    margin-top: 90px;
 }
 
 section p {
 
-	margin-bottom: 90px;
+    margin-bottom: 90px;
 }
-
 
 #img img {
 
-	width: 100%;
-	margin-top: 0px;
+    width: 100%;
+    margin-top: 0px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* SPAN #FINDUS */
 
-
 span #Findus {
 
-	background: url("img/gray.jpg") no-repeat 0;
-	min-height: 900px;
-	z-index: -1;
-	background-size: cover;
+    background: url("img/gray.jpg") no-repeat 0;
+    min-height: 900px;
+    z-index: -1;
+    background-size: cover;
 }
 
 #Findus img {
-
     width: 20%;
-    margin-left: 535px;
+    margin-left: 650px;
 }
 
 .container-fluid {
-	border: 2px solid white;
-	background-color: white;
-	text-align: center;
-	margin-left: 300px;
-	margin-right: 300px;
-	line-height: 12px;
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 12px;
 }
-
 
 span h1 {
 
-	margin-top: 70px;
+    margin-top: 70px;
 }
-
 
 address {
 
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
-span #put1 {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	padding-right: 50px;
-
+input {
+    display: block;
+    width: 55%;
+    line-height: normal;
+    margin-bottom: 10px;
 }
 
-span #put2 {
-
-	margin-bottom: 10px;
-	padding-right: 50px;
+.mrg {
+    margin-top: 22px;
 }
 
-span #put3 {
-
-	margin-bottom: 10px;
-	padding-right: 50px;
+textarea {
+    width: 55%;
+    float: left;
+    height: 100px;
 }
-
-span #put4 {
-
-	padding-right: 66px;
-    padding-bottom: 80px;
-}
-
 
 button {
-
-	float:right;
-	background-color: black !important;
-	color: white !important;
-	margin-right: 48px;
-    margin-top: 5px;
+    background-color: black !important;
+    color: white !important;
+    position: absolute;
+    right: 240px;
+    top: 210px;
 }
-
-
 
 /* FOOTER */
 
 footer {
 
-	background-color: #222 !important;
-	color: white;
-	text-align: center;
-	padding: 60px;
+    background-color: #222 !important;
+    color: white;
+    text-align: center;
+    padding: 60px;
 
 }
 
+footer i {
 
-footer i{
-
-	color: white;
+    color: white;
 }
 
 footer i:hover {
 
-	color: red;
+    color: red;
 }
 
+@media only screen
+and (min-width: 1030px)
+and (max-width: 1366px) {
+    #Findus img {
+        width: 20%;
+        margin-left: 535px;
+    }
+
+    span #put1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-right: 50px;
+    }
+
+    span #put2 {
+        margin-bottom: 10px;
+        padding-right: 50px;
+    }
+
+    span #put3 {
+        margin-bottom: 10px;
+        padding-right: 50px;
+    }
+
+    span #put4 {
+        padding-right: 66px;
+        padding-bottom: 80px;
+    }
+    button {
+        background-color: black !important;
+        color: white !important;
+        position: absolute;
+        right: 169px;
+        top: 227px;
+    }
+    .mrg {
+        margin-top: 0;
+    }
+}
